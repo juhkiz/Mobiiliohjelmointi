@@ -49,7 +49,7 @@ export default function Test() {
     
                             <Card.Title>
                                 <Image
-                                    style={{ width: 30, height: 30 }}
+                                    style={{ width: 20, height: 20 }}
                                     source={{ uri: coinPictures[item.name]}}
                                 />
                                 {item.name}

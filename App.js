@@ -4,6 +4,7 @@ import Test from './Components/FetchAllCoins';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from'@react-navigation/bottom-tabs';
 import Portfolio from './Components/Portfolio';
+import { Ionicons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
 
@@ -12,9 +13,15 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name = "Home" component={HomeScreen}/>
-        <Tab.Screen name = "Coins" component={Test}/>
-        <Tab.Screen name = "Portfolio" component = {Portfolio}/>
+        <Tab.Screen name = "Home" component={HomeScreen} options={{
+                    tabBarIcon: () => <Ionicons name="md-home" size={20} color="blue" />
+                }}/>
+        <Tab.Screen name = "Coins" component={Test} options={{
+                    tabBarIcon: () => <Ionicons name="cash-outline" size={20} color="blue" />
+                }}/>
+        <Tab.Screen name = "Portfolio" component = {Portfolio} options={{
+                    tabBarIcon: () => <Ionicons name="add-outline" size={20} color="blue" />
+                }}/>
       </Tab.Navigator>
     </NavigationContainer>
   );
