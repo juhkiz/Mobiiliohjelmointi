@@ -57,7 +57,7 @@ Mikäli haluat käyttää tätä sovellusta, sinulla tulee olla asennettu Expo s
    ```sh
    npm install
    ```
-   ```
+
 4. Sovelluksen käynnistys terminaalissa
    ```sh
    expo start => Seuraa terminaaliin tulevia ohjeita
@@ -68,11 +68,11 @@ Mikäli haluat käyttää tätä sovellusta, sinulla tulee olla asennettu Expo s
 
 ## Käyttö
 <img src="./readmepics/sc1.png" alt="Logo">
-<p>Etusivun perusnäky kertoo perustietoa projektista ja appista</p>
+<p>Etusivun Home - näkymä kertoo perustietoa projektista ja appista</p>
 <img src="./readmepics/sc2.png" alt="Logo">
 <p>Coins välilehden näkymästä voit selata eri kryptovaluuttoja, sekä tietoa niistä</p>
 <img src="./readmepics/sc3.png" alt="Logo">
-<p>Painamalla Show More -> Avautuu kryptovaluuttojen lisätiedot</p>
+<p>Painamalla More Info -> Avautuu kryptovaluuttojen lisätiedot</p>
 <img src="./readmepics/sc4.png" alt="Logo">
 <p>Portfolio välilehdellä voit tallettaa omia kryptovaluuttoja ja niiden määriä. Voit tämän lisäksi tallentaa nämä laitemuistiin / tuoda tallennetut valuutat laitemuistista</p>
 
